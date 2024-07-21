@@ -1,0 +1,143 @@
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+#mainMenu .nav-link {
+  color: #17a2b8;
+}
+
+#mainMenu .nav-link:hover {
+  background: #17a2b8;
+  color: #333;
+  border-radius: 5px;
+}
+
+#mainMenu .nav-link.active {
+  background: #17a2b8;
+  color: #333;
+  border-radius: 5px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #262626;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+#contact {
+  background: url(../images/map.jpg);
+}
+
+.custom-link p a {
+  color: black;
+  text-decoration: none;
+}
+
+.custom-link p:hover a {
+  color: #17a2b8;
+}
+
+#footer .search-bar {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+#footer .btn {
+  color: black;
+  background-color: #17a2b8;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.horizontal-line-container {
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.horizontal-line {
+  height: 2px;
+  background: linear-gradient(to right, #d3d3d3, #a9a9a9, #d3d3d3);
+  border: none;
+}
+
+#events .container {
+  margin-top: 120px;
+}
+
+#events .card {
+  height: 100%; /* Ensure cards take full height */
+  display: flex;
+  flex-direction: column;
+}
+
+#events .card-img-top {
+  height: 300px; /* Fixed height for images */
+  object-fit: cover; /* Ensure images cover the entire area */
+}
+
+#events .card-body {
+  flex: 1 1 auto; /* Make the card body take up the remaining space */
+}
+
+#events .card-footer {
+  margin-top: auto; /* Push the footer to the bottom */
+}
+
+#pricing .card {
+  flex: 1 1 auto; /* Ensure the cards take up the available space evenly */
+  margin: 0 15px; /* Add margin between cards */
+  margin-top: -30px;
+  height: 100%;
+}
+
+#pricing .container {
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto; /* Center the container */
+  width: 100%;
+}
+
+#pricing .card-header {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+  padding: 1rem;
+}
+
+#pricing .card-body {
+  flex: 1;
+}
+
+#pricing .card-footer {
+  text-align: center;
+}
+
+.list-group-item {
+  border: 1px solid #ddd;
+}
+
+.btn-primary {
+  background-color: #17a2b8;
+  color: black;
+}
+
+#contactUs .btn-outline-secondary {
+  color: black;
+  margin-bottom: 140px;
+}
